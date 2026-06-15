@@ -1,0 +1,49 @@
+:root {
+  /* Palette — clinical editorial: warm paper, deep ink, a single clinical teal,
+     plus semantic signal colors. */
+  --color-paper: oklch(98.5% 0.006 95);
+  --color-surface: oklch(100% 0 0);
+  --color-surface-sunken: oklch(96.5% 0.008 95);
+  --color-ink: oklch(22% 0.02 260);
+  --color-ink-soft: oklch(46% 0.02 260);
+  --color-line: oklch(89% 0.01 95);
+
+  --color-accent: oklch(58% 0.10 200);
+  --color-accent-soft: oklch(94% 0.03 200);
+
+  --color-ok: oklch(60% 0.12 150);
+  --color-ok-soft: oklch(95% 0.04 150);
+  --color-warn: oklch(62% 0.17 35);
+  --color-warn-soft: oklch(95% 0.05 35);
+
+  /* Typography — a real pairing: serif display, humanist sans body. */
+  --font-display: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'SF Mono', 'JetBrains Mono', ui-monospace, monospace;
+
+  --text-xs: 0.78rem;
+  --text-sm: 0.88rem;
+  --text-base: 1rem;
+  --text-lg: 1.18rem;
+  --text-xl: clamp(1.4rem, 1rem + 1.2vw, 1.9rem);
+  --text-display: clamp(2rem, 1.2rem + 3vw, 3.4rem);
+
+  /* Rhythm — intentional, not uniform. */
+  --space-1: 0.35rem;
+  --space-2: 0.6rem;
+  --space-3: 1rem;
+  --space-4: 1.6rem;
+  --space-5: 2.6rem;
+  --space-6: 4rem;
+
+  --radius-sm: 6px;
+  --radius: 12px;
+  --radius-lg: 20px;
+
+  --shadow-card: 0 1px 2px oklch(22% 0.02 260 / 0.04), 0 8px 24px oklch(22% 0.02 260 / 0.06);
+  --shadow-raise: 0 2px 4px oklch(22% 0.02 260 / 0.06), 0 16px 40px oklch(22% 0.02 260 / 0.10);
+
+  --duration-fast: 140ms;
+  --duration: 280ms;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}

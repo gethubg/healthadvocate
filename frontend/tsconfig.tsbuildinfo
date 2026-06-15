@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/vite-env.d.ts","./src/api/client.ts","./src/components/findingscard.tsx","./src/components/foodadvicecard.tsx","./src/components/trendchart.tsx","./src/components/ui/tabs.tsx","./src/tabs/asktab.tsx","./src/tabs/trendstab.tsx","./src/tabs/uploadtab.tsx"],"version":"5.9.3"}
